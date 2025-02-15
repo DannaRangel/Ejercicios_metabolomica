@@ -1,0 +1,44 @@
+2+2
+2^(180)
+
+Hombre <- 7
+Mujer <- 9
+Hombre+Mujer
+Total <- Hombre+Mujer
+Total
+
+#############################
+
+CHO <- 535000
+VERO <- 1350000
+Cocultivo=CHO+VERO
+Cocultivo
+
+############################
+
+x <- 35
+y <- 22
+w <- "34"
+z <- "25"
+x+y
+w+z
+
+###########################
+Vector_A <- c("Marian","Danna","Diego","Alegria","Manuel") #Son los nombres
+Vector_B <- c("15","24","26","4","16") #Número favorito
+Vector_C <- c(1.58,1.57,1.69,1.70,1.74) #Estatura
+
+Tabla1 <- data.frame(Nombre=Vector_A,No_Favorito=Vector_B,Estatura=Vector_C)
+Tabla1
+View(Tabla1) #Ver la tabla completa en una ventana nueva
+head(Tabla1) #Ver las 6 primeras filas en la consola
+
+Tabla$No_Favorito
+
+#############################
+Vector_Grupo <- c("Gato","Perro","Cho","Vero")
+Vector_Valor <- c(15,25,530000,1350000)
+
+Tabla2 <- data.frame(Grupo=Vector_Grupo,Valor=Vector_Valor)
+View(Tabla2)
+head(Tabla2)
