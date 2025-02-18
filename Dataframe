@@ -1,0 +1,11 @@
+#Dataframe tarea metabolómica
+#Creador: Danna Rangel
+
+Vector_A <- c("Falla de sistema urinario","Neoplasia","Infeccioso","Trauma","Falla sistema cardiovascular","Muesrte súbita","Cuerpo extraño") #causa de muerte
+Vector_B <- c(16,13,23,19,4,3,1) #0 a 4 años
+Vector_C <- c(33,23,15,5,6,3,5) #5 a 9 años
+Vector_D <- c(47,50,13,3,9,1,0) #10 a 14 años
+Vector_E <- c(43,37,2,1,2,0,0) #15 años o más
+
+Tabla <- data.frame(Motivo_de_muerte =Vector_A, Cero_a_cuatro_años=Vector_B, Cinco_a_nueve_años=Vector_C, Diez_a_catorce_años=Vector_D, Quince_años_o_más=Vector_E)
+View(Tabla)
