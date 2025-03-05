@@ -1,0 +1,35 @@
+---
+title: "MT-1"
+author: "Danna Rangel"
+date: "2025-03-05"
+output: html_document
+---
+
+Crear vectores con datos de las columnas
+```{r}
+Vector_A <- c("Border Colie", "Scnhauzer", "Gran Danes", "Chihuahua", "Criollo")
+Vector_B <- c(3,9,3,4,5)
+Vector_C <- c(4,3.5,3,7,4.5)
+```
+
+Crear objeto Razas_perros y asignar columna
+```{r}
+Razas_perros <- data.frame(Raza=Vector_A, Total_perros=Vector_B, Edad_promedio=Vector_C)
+```
+
+Llamar al objeto
+```{r}
+Razas_perros
+```
+
+Ver el objeto/dataframe ya creado (todo)
+```{r}
+View(Razas_perros)
+```
+
+Objeto prom_total y prom_edad
+```{r}
+Prom_total <- mean(Razas_perros$Total_perros)
+Prom_edad <- mean(Razas_perros$Edad_promedio)
+```
+
